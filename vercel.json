@@ -4,6 +4,7 @@
       "NODE_VERSION": "20"
     }
   },
+  "outputDirectory": "public",
   "rewrites": [
     {
       "source": "/(.*)",

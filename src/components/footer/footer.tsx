@@ -1,28 +1,25 @@
 import React from "react"
+
 import styled from "styled-components"
 
 const FooterNavigation: React.FC = () => {
   return (
     <Footer>
       <div className="footer-content">
-        <section>
-          {/* Company section - 目前被注释掉了 */}
-        </section>
+        <section>{/* Company section - 目前被注释掉了 */}</section>
 
         <section>
           <h2 className="mb-2 font-semibold">Legal</h2>
           <ul className="text-foreground/60">
             <li>
-              <a href="https://docs.sheet0.com/legal/privacy">
-                Privacy policy
-              </a>
+              <a href="https://docs.sheet0.com/legal/privacy">Privacy policy</a>
             </li>
             <li>
               <a href="https://docs.sheet0.com/legal/terms">Terms</a>
             </li>
           </ul>
         </section>
-        
+
         <section>
           <h2 className="mb-2 font-semibold">Social</h2>
           <ul className="text-foreground/60">
@@ -34,10 +31,8 @@ const FooterNavigation: React.FC = () => {
             </li>
           </ul>
         </section>
-        
-        <section>
-          {/* Product section - 目前被注释掉了 */}
-        </section>
+
+        <section>{/* Product section - 目前被注释掉了 */}</section>
       </div>
     </Footer>
   )
@@ -46,7 +41,7 @@ const FooterNavigation: React.FC = () => {
 const Footer = styled.footer`
   width: 100%;
   background-color: var(--color-gray-1);
-  
+
   .footer-content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

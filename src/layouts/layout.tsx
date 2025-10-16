@@ -9,7 +9,6 @@ import ThemeContext from "~/src/stores/themeContext"
 import GlobalStyle from "~/src/styles/globalStyle"
 import styledTheme from "~/src/styles/styledTheme"
 
-
 const Layout: React.FC<React.PropsWithChildren> = ({ children }) => {
   const { theme } = useTheme()
 
@@ -18,9 +17,7 @@ const Layout: React.FC<React.PropsWithChildren> = ({ children }) => {
       <ThemeContext.Provider value={theme}>
         <GlobalStyle />
         <Header />
-        <Container>
-          {children}
-        </Container>
+        <Container>{children}</Container>
         <Footer />
       </ThemeContext.Provider>
     </ThemeProvider>
@@ -32,6 +29,5 @@ const Container = styled.div`
   min-height: calc(100vh - var(--nav-height) - var(--footer-height));
   background-color: var(--color-post-background);
 `
-
 
 export default Layout

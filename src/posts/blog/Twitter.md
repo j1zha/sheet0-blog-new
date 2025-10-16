@@ -30,17 +30,18 @@ Every good prompt has three parts:
 ## Prompt of This Case
 
 **Prompt:**  
-Scrape all posts from [somebody’s link @xxx] during **July 2025**.  
+Scrape all posts from [somebody’s link @xxx] during **July 2025**.
 
-For each post, collect:  
-- Ticker  
-- News Source  
-- News Type  
-- Time  
-- News (full text)  
-- Link to News  
-- Sentiment  
-- News takeaway  
+For each post, collect:
+
+- Ticker
+- News Source
+- News Type
+- Time
+- News (full text)
+- Link to News
+- Sentiment
+- News takeaway
 - Key Debate
 
 ---

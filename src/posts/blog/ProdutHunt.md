@@ -11,8 +11,8 @@ alt: "Product Hunt startup data scraping example"
 
 Product Hunt’s is the hottest websiteto discover the hottest new products. But if you want to track vote counts and launch times across multiple days, it’s not easy and always time-consuming. However, it's important for product teams to track the trends of data on PH and figure out the best launch date.
 
-With **Sheet0**, you can turn this into a one-prompt workflow: 
-Instantly extract product names, vote counts, and launch times into a clean spreadsheet, ready for analysis or trend tracking. 
+With **Sheet0**, you can turn this into a one-prompt workflow:
+Instantly extract product names, vote counts, and launch times into a clean spreadsheet, ready for analysis or trend tracking.
 
 ---
 
@@ -34,10 +34,11 @@ Every good prompt has three parts:
 Scrape the vote counts and launch times of projects from Product Hunt  
 **URL:** [https://www.producthunt.com/leaderboard/daily/2025/7/27?ref=header_nav](https://www.producthunt.com/leaderboard/daily/2025/7/27?ref=header_nav)
 
-For each product, collect:  
-- Product name  
-- Vote count  
-- Launch time  
+For each product, collect:
+
+- Product name
+- Vote count
+- Launch time
 
 ---
 

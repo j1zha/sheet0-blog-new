@@ -31,18 +31,20 @@ Every good prompt has three parts:
 
 **Prompt:**  
 Scrape the top 100 books from Amazon's Best Seller in Books list from
-https://www.amazon.com/best-sellers-books-Amazon/zgbs/books/ref=zg_bs_nav_books_0  
+https://www.amazon.com/best-sellers-books-Amazon/zgbs/books/ref=zg_bs_nav_books_0
 
 For each book, get:
-- Title  
-- Ranking  
-- Price  
-- Number of reviews  
+
+- Title
+- Ranking
+- Price
+- Number of reviews
 - Description (from the book’s main page)
 
 ---
 
 ## Results
+
 **Preview (first 4 rows):**  
 ![Preview](./images/amazon/amazon.jpg)
 
@@ -51,7 +53,6 @@ For each book, get:
 ## Try It Yourself
 
 Feel free to run this case in **Sheet0** with just one prompt, and get real data in seconds!
-
 
 <!-- ### Set Front matter
 

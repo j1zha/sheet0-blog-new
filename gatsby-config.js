@@ -1,7 +1,7 @@
 const meta = require("./gatsby-meta-config")
 
-// GitHub Pages 配置
-const pathPrefix = "/sheet0-blog"
+// Vercel部署配置 - 不需要pathPrefix
+// const pathPrefix = "/sheet0-blog"
 
 const siteMetadata = {
   title: meta.title,
@@ -34,7 +34,7 @@ const corePlugins = [
     resolve: "gatsby-source-filesystem",
     options: {
       name: "blog",
-      path: `${__dirname}/src/posts/blog`,  // ✅ 改成你真实的路径
+      path: `${__dirname}/src/posts/blog`, // ✅ 改成你真实的路径
     },
   },
   {
@@ -183,7 +183,7 @@ const pwaPlugins = [
 ]
 
 module.exports = {
-  pathPrefix,
+  // pathPrefix, // Vercel部署时不需要
   graphqlTypegen: true,
   siteMetadata,
   plugins: [

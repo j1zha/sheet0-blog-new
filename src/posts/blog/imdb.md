@@ -9,7 +9,7 @@ alt: "IMDb movie reviews data extraction preview"
 
 ## Introduction
 
-IMDb is a popular site for movie ratings and reviews. But if you want to analyze all the reviews for a movie. For example, *How to Train Your Dragon* , you’ll run into a problem: IMDb doesn’t allow you to export reviews in bulk. Copying them one by one is slow and impractical.
+IMDb is a popular site for movie ratings and reviews. But if you want to analyze all the reviews for a movie. For example, _How to Train Your Dragon_ , you’ll run into a problem: IMDb doesn’t allow you to export reviews in bulk. Copying them one by one is slow and impractical.
 
 With **Sheet0**, now you can scrape the full text and rating of each review with a single prompt, turning unstructured comments into a clean dataset ready for analysis.
 
@@ -30,21 +30,23 @@ Every good prompt has three parts:
 ## Prompt of This Case
 
 **Prompt:**  
-Scrape all reviews for the IMDb movie *How to Train Your Dragon*  
-**URL:** [https://www.imdb.com/title/tt26743210/reviews/?ref_=tt_ururv_sm&sort=featured%2Cdesc](https://www.imdb.com/title/tt26743210/reviews/?ref_=tt_ururv_sm&sort=featured%2Cdesc)
+Scrape all reviews for the IMDb movie _How to Train Your Dragon_  
+**URL:** [https://www.imdb.com/title/tt26743210/reviews/?ref\_=tt_ururv_sm&sort=featured%2Cdesc](https://www.imdb.com/title/tt26743210/reviews/?ref_=tt_ururv_sm&sort=featured%2Cdesc)
 
-For each review, collect:  
-- Full content of the review  
-- Rating  
+For each review, collect:
+
+- Full content of the review
+- Rating
 
 ---
 
 ## Results
 
-As an example, we ran this prompt on *How to Train Your Dragon* reviews.  
+As an example, we ran this prompt on _How to Train Your Dragon_ reviews.  
 **Sheet0** extracted each review’s content and rating into a structured spreadsheet.
 
-**Preview (first 4 rows):**  
+**Preview (first 4 rows):**
+
 <!-- ![Preview](./images/imdb-reviews-preview.jpg) -->
 
 ---
